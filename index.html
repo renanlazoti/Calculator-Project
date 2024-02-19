@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <source src="assets/js/app.js" defer>
+    <script src="assets/js/app.js" defer></script>
     <title>RL Calculator</title>
 </head>
 <body>
@@ -25,18 +25,18 @@
                 <input type="text" id="result" />
             </div>
             <div class="calculator-digits">
-                <input type="button" value="1">
-                <input type="button" value="2">
-                <input type="button" value="3">
-                <input type="button" value="4">
-                <input type="button" value="5">
-                <input type="button" value="6">
-                <input type="button" value="7">
-                <input type="button" value="8">
-                <input type="button" value="9">
+                <input type="button" class="digits" value="1">
+                <input type="button" class="digits" value="2">
+                <input type="button" class="digits" value="3">
+                <input type="button" class="digits" value="4">
+                <input type="button" class="digits" value="5">
+                <input type="button" class="digits" value="6">
+                <input type="button" class="digits" value="7">
+                <input type="button" class="digits" value="8">
+                <input type="button" class="digits" value="9">
                 <input type="button" value="CLEAR">
-                <input type="button" value="0">
-                <input type="button" value="CALCULATE">
+                <input type="button" class="digits" value="0">
+                <input type="button" onclick="Calculate()" value="CALCULATE">
             </div>
         </div>
     </main>
